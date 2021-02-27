@@ -6,6 +6,7 @@ The website_* must be defined for the RSS to work
 -->
 @def website_title = "Quantum Computing Problems & Solutions"
 @def website_descr = "Solving quantum computing problems in Julia using Sympy.jl within Pluto.jl notebooks"
+@def website_url = " https://stefanbringuier.github.io/QuantumComputingProblemsSolutions/"
 
 @def author = "S. Bringuier (stefanbringuier@gmail.com)"
 @def mintoclevel = 2

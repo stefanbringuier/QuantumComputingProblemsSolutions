@@ -6,7 +6,7 @@ These are my solutions to problems in the book *Problems and solutions in quantu
 
 
 
-Once the [repo]() is locally cloned, the environment and pluto server can be instatiated from the `Package.toml` and dependencies from `Manifest.toml`, using the command line:
+Once the [repo](https://github.com/stefanbringuier/QuantumComputingProblemsSolutions) is locally cloned, the environment and pluto server can be instatiated from the `Package.toml` and dependencies from `Manifest.toml`, using the command line:
 
 ```bash
 julia --project=@. -e "using Pluto; Pluto.run()"
