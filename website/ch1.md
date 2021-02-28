@@ -7,6 +7,7 @@ The problems in this chapter are focused on qubit states and simple untiary oper
 
 ## Problems
 
-* [Problem 1](../ch1_problems/pp1)
-* [Problem 2](../ch1_problems/pp2)
-* [Problem 3](../ch1_problems/pp3)
+## Programming Problems
+- [Problem 1](../ch1_problems/pp1)
+- [Problem 2](../ch1_problems/pp2)
+- [Problem 3](../ch1_problems/pp3)
