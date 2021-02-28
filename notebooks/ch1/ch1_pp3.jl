@@ -9,7 +9,7 @@ begin
 	using SymPy
 	using Plots
 	pyplot()
-end
+end;
 
 # ╔═╡ d045eda8-7555-11eb-1f5f-7fe11a175e3a
 md"""
@@ -77,6 +77,6 @@ end
 # ╠═ea82dbde-7555-11eb-39c7-e54345be3666
 # ╟─809e4128-755b-11eb-263b-8f0f053cdb14
 # ╠═5d68c704-7557-11eb-0674-bd5e07dd5a97
-# ╠═f2919eb4-7557-11eb-20d9-b7f512e61873
+# ╟─f2919eb4-7557-11eb-20d9-b7f512e61873
 # ╟─e8b0afc8-755e-11eb-1823-55b2fc58ae73
 # ╠═1bfe687a-755f-11eb-0a5b-716bb2cec7eb
