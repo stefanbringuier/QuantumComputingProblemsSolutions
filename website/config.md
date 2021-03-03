@@ -27,3 +27,6 @@ pages. It can be math commands but does not need to be.
 For instance:
 * \newcommand{\phrase}{This is a long phrase to copy.}
 -->
+
+\newcommand{\note}[1]{@@note @@title ⚠ Note@@ @@content #1 @@ @@}
+\newcommand{\warn}[1]{@@warning @@title ⚠ Warning!@@ @@content #1 @@ @@}

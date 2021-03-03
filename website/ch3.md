@@ -4,8 +4,11 @@
 
 # Chapter 3
 The problems in this chapter are focused on matrices.
+\toc
+## Background material
 
 ## Problems
 
 ### Programing Problems
 - [Problem 1](../ch3_problems/pp1)
+- [Problem 2](../ch3_problems/pp2)
