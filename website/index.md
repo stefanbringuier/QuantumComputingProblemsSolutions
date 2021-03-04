@@ -16,7 +16,8 @@ This site is intended to provide a static render of the various notebooks along 
 
  \note{The html bind objects in the Pluto.jl notebooks don't work with the static html output.}
 
-## Using the notebooks files
+## Using the notebooks files 
+
 Once the [repo](https://github.com/stefanbringuier/QuantumComputingProblemsSolutions) is locally cloned, the environment and pluto server can be instatiated from the `Package.toml` and dependencies from `Manifest.toml` from within the folder using the command line:
 
 ```bash

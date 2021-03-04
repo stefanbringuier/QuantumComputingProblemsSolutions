@@ -1,5 +1,6 @@
 
 ## Quantum Computing Problems & Solutions
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stefanbringuier/QuantumComputingProblemsSolutions/main)
 
 My alternative solutions to problems in the book *Problems and solutions in quantum computing and quantum information*[^1] using Julia with [SymPy.jl](https://github.com/JuliaPy/SymPy.jl) within [Pluto.jl](https://github.com/fonsp/Pluto.jl) notebooks.
 
