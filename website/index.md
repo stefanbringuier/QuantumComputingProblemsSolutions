@@ -38,6 +38,7 @@ julia> Pluto.run()
    - [Ch. 1](/ch1/) Qubits
    - [Ch. 2](/ch2/) Product spaces
    - [Ch. 3](/ch3/) Matrices
+   - [Ch. 4](/ch4/) Density Operators
 
 
 [^1]: Steeb, W. H., & Hardy, Y., Problems and solutions in quantum computing and quantum information (4th Edition). In Problems And Solutions In Quantum Computing And Quantum Information, World Scientific, 4th ed., 2018. [10.1142/10943](https://doi.org/10.1142/10943)

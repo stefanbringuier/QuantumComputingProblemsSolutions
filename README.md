@@ -6,7 +6,7 @@ My alternative solutions to problems in the book *Problems and solutions in quan
 
 I put together a static website of the notebooks using [Franklin.jl](franklinjl.org) and deployed with github pages. Its still in an early state:
 
-> [Static Pluto Notebook Website](https://stefanbringuier.github.io/QuantumComputingProblemsSolutions/index.html)
+🎈[Static Pluto Notebook Website](https://stefanbringuier.github.io/QuantumComputingProblemsSolutions/index.html)🎈
 
 
 Environment and pluto server can be instatiated from the Package.toml and dependencies from Manifest.toml, using the command line:

@@ -12,3 +12,4 @@ The most frequent use of density operators/matrices is describing the statistica
 
 ### Programing Problems
 - [Problem 1](../ch4_problems/pp1)
+- [Problem 2](../ch4_problems/pp2)
