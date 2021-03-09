@@ -1,6 +1,4 @@
 @def title = "Tags"
-
-
-* page with tag ['qubits'](/tag/qubits/)
-
+* ['Qubits'](/tag/qubits/)
+* ['Matrices'](/tag/matrices/)
 
