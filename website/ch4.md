@@ -1,6 +1,6 @@
 @def hascode = true
 @def title = "Chapter 4"
-@def tags = ["density operators", "chapter 4"]
+@def tags = ["densityoperators", "chapter 4"]
 
 # Chapter 4
 The problems in this chapter are focused on density operators.  
