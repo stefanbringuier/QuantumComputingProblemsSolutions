@@ -12,5 +12,5 @@ The problems in this chapter are focused on trace and partial trace of operators
 
 ### Programing Problems
 - [Problem 1](../ch5_problems/pp1)
-<!-- - [Problem 2](../ch5_problems/pp2) -->
+- [Problem 2](../ch5_problems/pp2)
 <!-- - [Problem 3](../ch5_problems/pp3) -->
