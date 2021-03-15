@@ -16,6 +16,17 @@ This site is intended to provide a static render of the various notebooks along 
 
  \note{The html bind objects in the Pluto.jl notebooks don't work with the static html output.}
 
+ The site is broken down by chapter and within each chapter there are programming problems (i.e. solved using \linksympy) and those that are just solved by "hand".
+
+ ### Chapters
+- [Ch. 1](/ch1/) Qubits
+- [Ch. 2](/ch2/) Product spaces
+- [Ch. 3](/ch3/) Matrices
+- [Ch. 4](/ch4/) Density Operators
+- [Ch. 5](/ch5/) Traces
+- [Ch. 7](/ch7/) Unitary Operators
+
+
 ## Using the notebooks files 
 
 Once the [repo](https://github.com/stefanbringuier/QuantumComputingProblemsSolutions) is locally cloned, the environment and pluto server can be instatiated from the `Package.toml` and dependencies from `Manifest.toml` from within the folder using the command line:
@@ -33,12 +44,6 @@ julia> ]
 julia> using Pluto
 julia> Pluto.run()
 ```
-
-## Chapters 
-   - [Ch. 1](/ch1/) Qubits
-   - [Ch. 2](/ch2/) Product spaces
-   - [Ch. 3](/ch3/) Matrices
-   - [Ch. 4](/ch4/) Density Operators
 
 
 [^1]: Steeb, W. H., & Hardy, Y., Problems and solutions in quantum computing and quantum information (4th Edition). In Problems And Solutions In Quantum Computing And Quantum Information, World Scientific, 4th ed., 2018. [10.1142/10943](https://doi.org/10.1142/10943)

@@ -30,3 +30,5 @@ For instance:
 
 \newcommand{\note}[1]{@@note @@title ⚠ Note@@ @@content #1 @@ @@}
 \newcommand{\warn}[1]{@@warning @@title ⚠ Warning!@@ @@content #1 @@ @@}
+
+\newcommand{\linksympy}{[SymPy.jl](https://github.com/JuliaPy/SymPy.jl)}
