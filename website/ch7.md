@@ -12,3 +12,4 @@ The problems of this chapter are focused on unitary operators.
 
 ### Programing Problems
 - [Problem 1](../ch7_problems/pp1)
+- [Problem 2](../ch7_problems/pp2)
