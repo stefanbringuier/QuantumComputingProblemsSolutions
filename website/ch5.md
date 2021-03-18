@@ -1,6 +1,6 @@
 @def hascode = true
 @def title = "Chapter 5"
-@def tags = ["trace","densityoperators", "chapter 5"]
+@def tags = ["trace","densityoperators", "density matrices","chapter 5"]
 
 # Chapter 5
 The problems in this chapter are focused on trace and partial trace of operators.  
