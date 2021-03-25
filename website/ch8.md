@@ -12,3 +12,4 @@ The problems of this chapter are focused on the concept of entropy of the quantu
 
 ### Programing Problems
 - [Problem 1](../ch8_problems/pp1)
+- [Problem 2](../ch8_problems/pp2)
