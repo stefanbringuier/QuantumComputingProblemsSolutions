@@ -26,6 +26,7 @@ This site is intended to provide a static render of the various notebooks along 
 - [Ch. 5](/ch5/) Traces
 - [Ch. 7](/ch7/) Unitary Operators
 - [Ch. 8](/ch8/) Entropy
+- [Ch. 9](/ch9/) Measurement
 
 
 ## Using the notebooks files 
