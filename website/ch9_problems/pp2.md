@@ -1,4 +1,4 @@
-@def title = "ch8_pp2"
+@def title = "ch9_pp2"
 
 [Pluto Notebook Link](https://github.com/stefanbringuier/QuantumComputingProblemsSolutions/tree/main/notebooks/ch9/ch9_pp2.jl)
 {{ plutonotebookpage ../../assets/ch9_pp2 }}
