@@ -29,6 +29,7 @@ This site is intended to provide a static render of the various notebooks along 
 - [Ch. 9](/ch9/) Measurement
 - [Ch. 10](/ch10/) Entanglement
 - [Ch. 11](/ch11/) Bell's Inequality
+- [Ch. 12](/ch12/) Quantum Information
 
 
 ## Using the notebooks files 
