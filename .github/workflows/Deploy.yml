@@ -23,6 +23,22 @@ jobs:
       uses: julia-actions/setup-julia@v1
       with:
         version: 1.5
+    - name: Pluto HTML Export Notebooks
+    - run: julia -e'
+           using Pkg; Pkg.activate("."); Pkg.instantiate();
+           using Pluto; 
+           s = Pluto.ServerSession();
+           nbs = [];
+           for (root,dirs,files) in walkdir("notebooks/")
+              for file in files
+                push!(nbs,file);
+              end
+           end
+           for n in nbs
+              nb = Pluto.SessionAction.open(s,n;run_async=false);
+              htmlnb = Pluto.generate_html(nb);
+              write("website/_assets/$(split(n,".")[1]).html",htmlnb);
+           end'
     # NOTE
     #   The steps below ensure that NodeJS and Franklin are loaded then it
     #   installs highlight.js which is needed for the prerendering step
@@ -31,6 +47,7 @@ jobs:
     #   Julia packages which may be required to successfully build your site.
     #   The last line should be `optimize()` though you may want to give it
     #   specific arguments, see the documentation or ?optimize in the REPL.
+    - name: Franklin
     - run: julia -e '
             cd("website");
             using Pkg; Pkg.activate("."); Pkg.instantiate();
