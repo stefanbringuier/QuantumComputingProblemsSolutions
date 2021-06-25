@@ -35,7 +35,7 @@ jobs:
               end;
            end;
            for n in nbs;
-              nb = Pluto.SessionAction.open(s,n;run_async=false);
+              nb = Pluto.SessionActions.open(s,n;run_async=false);
               htmlnb = Pluto.generate_html(nb);
               write("website/_assets/$(split(n,".")[1]).html",htmlnb);
            end;'
