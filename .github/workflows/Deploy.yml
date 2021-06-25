@@ -29,9 +29,9 @@ jobs:
            using Pluto; 
            s = Pluto.ServerSession();
            nbs = [];
-           for (root,dirs,files) in walkdir("notebooks/");
-              for file in files;
-                push!(nbs,file);
+           for dir in readdir("notebooks/");
+              for file in readdir("notebooks/"*dir);
+                push!(nbs,"notebooks/"*dir*"/"*file);
               end;
            end;
            for n in nbs;
