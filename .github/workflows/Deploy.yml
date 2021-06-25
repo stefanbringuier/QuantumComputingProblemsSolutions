@@ -37,7 +37,8 @@ jobs:
            for n in nbs;
               nb = Pluto.SessionActions.open(s,n;run_async=false);
               htmlnb = Pluto.generate_html(nb);
-              write("website/_assets/$(split(n,".")[1]).html",htmlnb);
+              nname = split(n,"/")[end];
+              write("website/_assets/$(split(nname,".")[1]).html",htmlnb);
            end;'
     # NOTE
     #   The steps below ensure that NodeJS and Franklin are loaded then it
