@@ -23,23 +23,25 @@ jobs:
       uses: julia-actions/setup-julia@v1
       with:
         version: 1.5
-    - name: Pluto HTML export
-      run: julia -e '
-           using Pkg; Pkg.activate("."); Pkg.instantiate();
-           using Pluto; 
-           s = Pluto.ServerSession();
-           nbs = [];
-           for dir in readdir("notebooks/");
-              for file in readdir("notebooks/"*dir);
-                push!(nbs,"notebooks/"*dir*"/"*file);
-              end;
-           end;
-           for n in nbs;
-              nb = Pluto.SessionActions.open(s,n;run_async=false);
-              htmlnb = Pluto.generate_html(nb);
-              nname = split(n,"/")[end];
-              write("website/_assets/$(split(nname,".")[1]).html",htmlnb);
-           end;'
+    # ISSUE:
+    # Julia environment doesn't properly configure PyCall/Conda/Sympy
+    # - name: Pluto HTML export
+    #   run: julia -e '
+    #        using Pkg; Pkg.activate("."); Pkg.instantiate();
+    #        using Pluto; 
+    #        s = Pluto.ServerSession();
+    #        nbs = [];
+    #        for dir in readdir("notebooks/");
+    #           for file in readdir("notebooks/"*dir);
+    #             push!(nbs,"notebooks/"*dir*"/"*file);
+    #           end;
+    #        end;
+    #        for n in nbs;
+    #           nb = Pluto.SessionActions.open(s,n;run_async=false);
+    #           htmlnb = Pluto.generate_html(nb);
+    #           nname = split(n,"/")[end];
+    #           write("website/_assets/$(split(nname,".")[1]).html",htmlnb);
+    #        end;'
     # NOTE
     #   The steps below ensure that NodeJS and Franklin are loaded then it
     #   installs highlight.js which is needed for the prerendering step
