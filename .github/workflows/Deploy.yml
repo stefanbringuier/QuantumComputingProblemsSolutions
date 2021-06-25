@@ -24,7 +24,7 @@ jobs:
       with:
         version: 1.5
     - name: Pluto HTML Export Notebooks
-    - run: julia -e'
+    - run: julia -e '
            using Pkg; Pkg.activate("."); Pkg.instantiate();
            using Pluto; 
            s = Pluto.ServerSession();
