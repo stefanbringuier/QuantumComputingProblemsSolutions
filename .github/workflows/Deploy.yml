@@ -23,8 +23,8 @@ jobs:
       uses: julia-actions/setup-julia@v1
       with:
         version: 1.5
-    - name: Pluto HTML Export Notebooks
-    - run: julia -e '
+    - name: Pluto HTML export
+      run: julia -e '
            using Pkg; Pkg.activate("."); Pkg.instantiate();
            using Pluto; 
            s = Pluto.ServerSession();
@@ -48,7 +48,7 @@ jobs:
     #   The last line should be `optimize()` though you may want to give it
     #   specific arguments, see the documentation or ?optimize in the REPL.
     - name: Franklin
-    - run: julia -e '
+      run: julia -e '
             cd("website");
             using Pkg; Pkg.activate("."); Pkg.instantiate();
             using NodeJS; run(`$(npm_cmd()) install highlight.js`);
