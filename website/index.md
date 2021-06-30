@@ -14,11 +14,25 @@ It helps if you have access to the text by *Nielsen & Chuang*[^2] while working 
 
 This site is intended to provide a static render of the various notebooks along with some minor background material. The end goal is to somehow turn the static renders into dynamic notebooks using something like binder.
 
- \note{The html bind objects in the Pluto.jl notebooks don't work with the static html output. However as of Pluto v0.14.8 the html exports now include [mybinder](https://mybinder.org) button to run. This will work but requires some setting up the proper `Pkg` environment for `SymPy.jl` after it loads and fails.}
+ \note{The html bind objects in the Pluto.jl notebooks don't work with the static html output. However as of Pluto v0.14.8 the html exports now include [mybinder](https://mybinder.org) button to run. This will work but requires setting up the proper `Pkg` environment for `SymPy.jl` after it loads and fails. An example of this would be to add the following to the `Pluto.jl` notebook running on [mybinder](https://mybinder.org):
+ ```julia
+ begin
+	using Pkg
+	Pkg.activate(mktempdir())
+	ENV["PYTHON"] = ""
+	Pkg.add(["Conda", "PyCall"])
+    Pkg.build()
+    using Conda
+    Conda.add("sympy")
+	Pkg.add("SymPy")
+end
+```
+}
+
+ ### Chapters
 
  The site is broken down by chapter and within each chapter there are programming problems (i.e. solved using \linksympy) and those that are just solved by "hand".
 
- ### Chapters
 - [Ch. 1](/ch1/) Qubits
 - [Ch. 2](/ch2/) Product spaces
 - [Ch. 3](/ch3/) Matrices
