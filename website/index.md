@@ -14,7 +14,7 @@ It helps if you have access to the text by *Nielsen & Chuang*[^2] while working 
 
 This site is intended to provide a static render of the various notebooks along with some minor background material. The end goal is to somehow turn the static renders into dynamic notebooks using something like binder.
 
- \note{The html bind objects in the Pluto.jl notebooks don't work with the static html output.}
+ \note{The html bind objects in the Pluto.jl notebooks don't work with the static html output. However as of Pluto v0.14.8 the html exports now include [mybinder](https://mybinder.org) button to run. This will work but requires some setting up the proper `Pkg` environment for `SymPy.jl` after it loads and fails.}
 
  The site is broken down by chapter and within each chapter there are programming problems (i.e. solved using \linksympy) and those that are just solved by "hand".
 
@@ -30,6 +30,7 @@ This site is intended to provide a static render of the various notebooks along 
 - [Ch. 10](/ch10/) Entanglement
 - [Ch. 11](/ch11/) Bell's Inequality
 - [Ch. 12](/ch12/) Quantum Information
+- [Ch. 13](/ch13/) Cloning
 
 
 ## Using the notebooks files 
